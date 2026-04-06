@@ -4,7 +4,7 @@ pipeline{
     
       stage('1. checkout'){
         steps{
-          git url:'https://github.com/harish-nagure/dockerddemo',branch:'main'
+          git url:'https://github.com/harish-nagure/dockerddemo.git',branch:'main'
         }
       }
       
